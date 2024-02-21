@@ -20,7 +20,7 @@ const MainPage = () => {
                 <Route exact path='/service' Component={Service} />
                 <Route path='*' Component={Home} />
             </Routes>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }
