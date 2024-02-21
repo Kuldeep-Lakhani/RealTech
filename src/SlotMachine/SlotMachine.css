@@ -1,0 +1,28 @@
+
+/* ################### Slot Machine Game ################# */
+
+.slot-inner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.slot-title{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 30px 0;
+    text-transform: uppercase;
+    background: white;
+}
+
+.slot-machine{
+    width: 300px;
+    background: #fff;
+    margin: auto;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
